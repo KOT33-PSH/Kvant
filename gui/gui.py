@@ -10,7 +10,7 @@ from tkinter import Tk, Canvas, Entry, Text, Button, PhotoImage
 # Установка пути вывода в директорию текущего файла
 OUTPUT_PATH = Path(__file__).parent
 # Определение пути к ресурсам, используемым в графическом интерфейсе
-ASSETS_PATH = OUTPUT_PATH / Path(r"D:\Urban\Python\Kvantoriun\build\assets\frame0")
+ASSETS_PATH = OUTPUT_PATH / Path(r"assets\frame0")
 
 # Функция для преобразования относительных путей ресурсов в абсолютные пути
 def relative_to_assets(path: str) -> Path:
